@@ -1,0 +1,44 @@
+main {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.six_blocks, .five_blocks, .four_blocks, .three_blocks, .two_blocks, .one_blocks {
+    width: 100%;
+    column-rule: 2px solid black;
+    display: block;
+    color: white; 
+    padding: 1em;
+    margin: 10px;
+    border-bottom: 2px solid black;
+}
+
+.six_blocks {
+    columns: 6;
+    background-color: #d04972;
+}
+
+.five_blocks {
+    columns: 5;
+    background-color: #e79366;
+}
+
+.four_blocks {
+    columns: 4;
+    background-color: #f2ed71;
+}
+
+.three_blocks {
+    columns: 3;
+    background-color: #e36f61;
+}
+
+.two_blocks {
+    columns: 2;
+    background-color: #f4c56c;
+}
+
+.one_blocks {
+    background-color: #d04972;
+}
